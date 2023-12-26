@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #ffe600;
+  border: none;
+  color: rgb(3, 3, 3);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #00d6fc;
+}
+
+.control {
+	text-align: center;
+}
+
+canvas {
+  background: rgb(117, 3, 248);
+}
